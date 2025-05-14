@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\panuv\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\panuv\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_10 Bounces (MVC).305678740.00" t="ExcludeRecursive" />
+    <e p="D:\panuv\Documents\Unity\Omat\10 Bounces (MVC)" t="IncludeRecursive">
+      <e p="10 Bounces (MVC).sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="BounceApplication.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="Ball" t="Include">
+              <e p="BallController.cs" t="Include" />
+            </e>
+            <e p="BounceController.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="Ball" t="Include">
+              <e p="BallModel.cs" t="Include" />
+            </e>
+            <e p="BounceModel.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="Ball" t="Include">
+              <e p="BallView.cs" t="Include" />
+            </e>
+            <e p="BounceView.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
