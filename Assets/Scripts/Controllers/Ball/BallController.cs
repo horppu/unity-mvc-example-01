@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+// Audiokineteicin luokkia vissiin :)
+using AK;
+
 namespace Controllers.Ball
 {
     public class BallController : BounceElement
@@ -7,6 +10,12 @@ namespace Controllers.Ball
         // Handles the ball hit event
         public void OnGroundHit()
         {
+            // Calls Event Play2 when ball hits the ground
+            AkSoundEngine.PostEvent("Play2", gameObject);
+
+            
+
+
             App.model.ball.bounces++;
             Debug.Log("Bounce " + App.model.ball.bounces);
 

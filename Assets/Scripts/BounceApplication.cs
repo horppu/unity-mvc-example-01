@@ -9,6 +9,9 @@ public class BounceElement : MonoBehaviour
 {
     // Gives access to the application and all instances.
     protected static BounceApplication App => FindFirstObjectByType<BounceApplication>();
+
+ 
+
 }
 
 // 10 Bounces Entry Point.

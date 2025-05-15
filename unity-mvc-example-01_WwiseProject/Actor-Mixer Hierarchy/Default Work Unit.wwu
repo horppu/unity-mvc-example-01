@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95BE7805-48A0-43FE-BE92-A1EAED1DB33D}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{95BE7805-48A0-43FE-BE92-A1EAED1DB33D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sfx_1" ID="{A2F33FDD-347F-426B-9A49-164E3C5EDB63}" ShortID="550704133">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{15288DB1-4F17-43B3-9DAF-AAA4FFBB575F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7996B7CB-7159-4BB5-A804-6EA4874C8A83}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_1" ID="{8A098E55-5AEC-437C-A08A-DD975FB1C74F}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="775856288"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_1" ID="{8A098E55-5AEC-437C-A08A-DD975FB1C74F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_2" ID="{38CB4E8F-4EEC-4715-90E1-8BAAA9788001}" ShortID="715978180">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{15288DB1-4F17-43B3-9DAF-AAA4FFBB575F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7996B7CB-7159-4BB5-A804-6EA4874C8A83}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_2" ID="{E226BA17-721A-4B29-983E-0A1288F4C78E}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="589080204"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_2" ID="{E226BA17-721A-4B29-983E-0A1288F4C78E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

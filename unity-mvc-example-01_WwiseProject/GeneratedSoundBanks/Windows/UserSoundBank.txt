@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	500558111	Play2			\Default Work Unit\Play2	
+	1256202815	Play			\Default Work Unit\Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	589080204	sfx_2	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\D4\{D48B6E85-7B8E-C51E-BF9F-615989E8CE05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_2		882096
+	775856288	sfx_1	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\5B\{5B9FAC3E-7573-72D4-669B-2E03BA017EAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_1		882096
+
