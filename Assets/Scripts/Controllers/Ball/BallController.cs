@@ -6,18 +6,21 @@ namespace Controllers.Ball
     {
         // luodaan bounceEvent
         public AK.Wwise.Event bounceEvent;
+        public AK.Wwise.Event victoryEvent;
 
         // Handles the ball hit event
         public void OnGroundHit()
         {
             // post bounceEvent (choose event on inspector)
             bounceEvent.Post(gameObject);
-
+           
             App.model.ball.bounces++;
             Debug.Log("Bounce " + App.model.ball.bounces);
 
             if (App.model.ball.bounces >= App.model.winCondition)
             {
+                victoryEvent.Post(gameObject);
+
                 App.view.ball.enabled = false;
                 App.view.ball.GetComponent<Rigidbody>().isKinematic = true;
                 App.controller.OnGameComplete();

@@ -397,6 +397,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9aa48eb00d4eb7478271e494e48e4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bounceEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 06ec5ac9e9257dd4c9d2918da44d658b,
+      type: 2}
+  victoryEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a26b0fc3d7427024cabe33ead2446d73,
+      type: 2}
 --- !u!1 &638799829
 GameObject:
   m_ObjectHideFlags: 0
