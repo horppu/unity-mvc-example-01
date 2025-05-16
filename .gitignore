@@ -73,3 +73,61 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Hopefully all WWise files needed to be ignored are listed below
+
+# Wwise generated files
+WwiseProject/GeneratedSoundBanks/
+WwiseProject/.cache/
+WwiseProject/.settings/
+WwiseProject/Authoring/
+WwiseProject/Originals/
+WwiseProject/Events/
+WwiseProject/Metadata/
+WwiseProject/Plugins/
+WwiseProject/ProjectCache/
+WwiseProject/SoundBanks/
+WwiseProject/SourceFiles/
+WwiseProject/Temp/
+WwiseProject/Unreal/
+WwiseProject/Wwise_IDs.h
+WwiseProject/Wwise_IDs.cs
+WwiseProject/Wwise_IDs.json
+WwiseProject/Wwise_IDs.txt
+
+# Ignore Wwise-specific files in Unity project
+Assets/Wwise/Editor/
+Assets/Wwise/Deployment/
+Assets/Wwise/Documentation/
+Assets/Wwise/IntegrationDemo/
+Assets/Wwise/MonoBehaviour/
+Assets/Wwise/Native/
+Assets/Wwise/ThirdParty/
+Assets/Wwise/Tools/
+Assets/Wwise/Version.txt
+Assets/Wwise/Settings.xml
+Assets/Wwise/EditorSettings.xml
+
+# Ignore Wwise cache files
+*.cache
+*.cache.bak
+*.cache.bak2
+*.cache.bak3
+
+# Ignore Wwise log files
+*.log
+*.log.bak
+*.log.bak2
+*.log.bak3
+
+# Ignore Wwise temporary files
+*.tmp
+*.temp
+*.temp.bak
+*.temp.bak2
+*.temp.bak3
+
+# Ignore Wwise backup files
+*.bak
+*.bak2
+*.bak3
