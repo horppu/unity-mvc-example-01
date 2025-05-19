@@ -3,7 +3,7 @@
   "Project": {
    "Name": "unity-mvc-example-01_WwiseProject",
    "GUID": "{FE635FD3-2EEB-4FDA-93E1-F43508E1701C}",
-   "Generator": "2024.1.4.8780"
+   "Generator": "2024.1.5.8803"
   },
   "CacheRoot": "../../../../unity-mvc-example-01_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{35B2BAA5-6C9A-B901-6B7C-EDFA9FF47829}"
+  "FileHash": "{D30DBBFF-F13F-CE99-5AB2-8B15B0AD04D8}"
  }
 }

@@ -11,6 +11,13 @@
     "StaticLib": "AkDelayFX"
    },
    {
+    "LibName": "Wwise Flanger",
+    "LibId": "8192003",
+    "Type": "Effect",
+    "DLL": "AkFlanger",
+    "StaticLib": "AkFlangerFX"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -21,6 +28,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{EFAEC4E2-C38D-D891-5949-2638D946B1F3}"
+  "FileHash": "{4702F04E-E64F-C2F2-0CE7-4134000FBDAB}"
  }
 }

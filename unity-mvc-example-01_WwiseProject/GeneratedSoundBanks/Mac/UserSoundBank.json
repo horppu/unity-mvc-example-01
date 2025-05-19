@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4BC7207C-EBEF-4720-8ECC-72AB3C1CC679}",
     "Language": "SFX",
-    "Hash": "{7283C5D1-695C-6D23-BF02-C00C783DC881}",
+    "Hash": "{F42188B5-BF1E-CE28-64FD-F041A71BEEE3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UserSoundBank",
     "ShortName": "UserSoundBank",
     "Path": "UserSoundBank.bnk",
@@ -35,6 +35,14 @@
     "Plugins": {
      "ShareSets": [
       {
+       "Id": "1674078407",
+       "Name": "Chorus_Like",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Chorus\\Chorus_Like",
+       "GUID": "{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
        "Id": "2180422931",
        "Name": "One_Tap_Quarter_Second",
        "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_Quarter_Second",
@@ -57,7 +65,14 @@
        {
         "Id": "775856288"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1674078407"
+        }
+       ]
+      }
      },
      {
       "Id": "500558111",
@@ -83,6 +98,6 @@
     ]
    }
   ],
-  "FileHash": "{9D641CF5-5674-516B-47B9-CC8F26300920}"
+  "FileHash": "{AADAE58D-DE03-C326-2B8E-E1047BF6F57A}"
  }
 }
