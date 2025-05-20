@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2ffc8019e3bf7f488e3c43c9655d5d57
     GuidInternal: 
-    m_lastTime: -8584543011642475712
+    m_lastTime: -8584539337512135940
     List:
     - name: Play
       guid: 37213a824dd54347a3ea9311f8a4b589
@@ -130,6 +130,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5
       minDuration: 5
+    - name: StopAll
+      guid: 03d50b2bf65db44d918814f5ea48da6e
+      id: 3086540886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2ffc8019e3bf7f488e3c43c9655d5d57
+      - ElementName: StopAll
+        ObjectType: 3
+        guid: 03d50b2bf65db44d918814f5ea48da6e
+      Path: Events\Default Work Unit\StopAll
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

@@ -96,6 +96,7 @@ WwiseProject/Wwise_IDs.json
 WwiseProject/Wwise_IDs.txt
 
 # Ignore Wwise-specific files in Unity project
+Assets/Wwise/*.*
 Assets/Wwise/Editor/
 Assets/Wwise/Deployment/
 Assets/Wwise/Documentation/
