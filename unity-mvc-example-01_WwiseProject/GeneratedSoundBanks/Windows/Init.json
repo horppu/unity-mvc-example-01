@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{ECBC2CA8-4600-3602-AB2D-8694F0C4158D}",
+    "Hash": "{902F6824-453D-CEA3-0C33-1EE27E4D0F8F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -68,6 +68,12 @@
       "GUID": "{71139F48-BEF9-4AB4-8B5D-0EAE531DDC22}"
      },
      {
+      "Id": "739941049",
+      "Name": "MusicFadeIn",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicFadeIn",
+      "GUID": "{C91551C1-BC10-4966-B2F1-0123EC3437C8}"
+     },
+     {
       "Id": "988953028",
       "Name": "SFXVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFXVolume",
@@ -88,6 +94,6 @@
     ]
    }
   ],
-  "FileHash": "{09F8CE5F-A523-910C-F785-B6BB34A0CD15}"
+  "FileHash": "{FC50004D-6472-ABC4-5FF4-BEE0746B0797}"
  }
 }

@@ -13,15 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MUTE_SNARE = 3723166340U;
         static const AkUniqueID PLAY = 1256202815U;
         static const AkUniqueID PLAY2 = 500558111U;
         static const AkUniqueID PLAY_BALLGAME = 3908199871U;
         static const AkUniqueID PLAY_BALLGAME_01 = 1986858627U;
+        static const AkUniqueID PLAY_BALLGAMELOOP = 1925396849U;
         static const AkUniqueID PLAY_BIISI1_BASS = 509790063U;
         static const AkUniqueID PLAY_BIISI1_LEAD = 2982188564U;
         static const AkUniqueID PLAY_LOOTBOX = 3406346291U;
         static const AkUniqueID PLAY_MYMUSIC = 194180921U;
         static const AkUniqueID PLAY_SFX3 = 4278995786U;
+        static const AkUniqueID PLAY_SWITCH1 = 1441427375U;
         static const AkUniqueID STOPALL = 3086540886U;
     } // namespace EVENTS
 
@@ -29,6 +32,7 @@ namespace AK
     {
         static const AkUniqueID EFFECTSVOLUME = 640585335U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID MUSICFADEIN = 739941049U;
         static const AkUniqueID MUSICVOLUME = 2346531308U;
         static const AkUniqueID SFXVOLUME = 988953028U;
     } // namespace GAME_PARAMETERS

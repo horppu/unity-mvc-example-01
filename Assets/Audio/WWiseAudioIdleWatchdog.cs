@@ -4,7 +4,7 @@ using UnityEngine;
 public class WwiseIdleAudioWatchdog : MonoBehaviour
 {
     private float idleTimer = 0f;
-    private const float idleTimeout = 30f;
+    private const float idleTimeout = 60f;
     private bool isIdle = false;
 
     void Update()

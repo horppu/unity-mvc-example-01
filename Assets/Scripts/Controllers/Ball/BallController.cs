@@ -7,6 +7,7 @@ namespace Controllers.Ball
         // luodaan bounceEvent
         public AK.Wwise.Event bounceEvent;
         public AK.Wwise.Event victoryEvent;
+        public AK.Wwise.Event dynamicEvent;
 
         // Handles the ball hit event
         public void OnGroundHit()
@@ -24,6 +25,10 @@ namespace Controllers.Ball
             {
                 #if !DISABLE_WWISE
                 victoryEvent.Post(gameObject);
+                #endif
+
+                #if !DISABLE_WWISE
+                dynamicEvent.Post(gameObject);
                 #endif
 
                 App.view.ball.enabled = false;

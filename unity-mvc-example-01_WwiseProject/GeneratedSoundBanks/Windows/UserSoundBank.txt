@@ -3,10 +3,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	500558111	Play2			\Default Work Unit\Play2	
 	509790063	Play_biisi1_bass			\Default Work Unit\Play_biisi1_bass	
 	1256202815	Play			\Default Work Unit\Play	
+	1441427375	Play_switch1			\Default Work Unit\Play_switch1	
+	1925396849	Play_BallGameLoop			\Default Work Unit\Play_BallGameLoop	
 	1986858627	Play_BallGame_01			\Default Work Unit\Play_BallGame_01	
 	2982188564	Play_biisi1_lead			\Default Work Unit\Play_biisi1_lead	
 	3086540886	StopAll			\Default Work Unit\StopAll	
 	3406346291	Play_LootBox			\Default Work Unit\Play_LootBox	
+	3723166340	Mute_snare			\Default Work Unit\Mute_snare	
 	3908199871	Play_BallGame			\Default Work Unit\Play_BallGame	
 	4278995786	Play_sfx3			\Default Work Unit\Play_sfx3	
 

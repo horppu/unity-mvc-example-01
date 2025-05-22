@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 
@@ -5,39 +6,40 @@ public static class WwiseToggle
 {
     private const string DefineSymbol = "DISABLE_WWISE";
 
-    [MenuItem("Tools/Wwise/Toggle Wwise Integration")]
+    [MenuItem("Tools/Wwise/Disable Wwise Events")]
     public static void ToggleWwiseDefine()
     {
-        BuildTargetGroup buildTargetGroup = EditorUserBuildSettings.selectedBuildTargetGroup;
-        string defines = PlayerSettings.GetScriptingDefineSymbolsForGroup(buildTargetGroup);
+        var buildTargetGroup = UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
+        string defines = PlayerSettings.GetScriptingDefineSymbols(buildTargetGroup);
 
         if (defines.Contains(DefineSymbol))
         {
             defines = defines.Replace(DefineSymbol, "").Replace(";;", ";").Trim(';');
-            Debug.Log("Wwise integration ENABLED.");
+            Debug.Log("Wwise Events ENABLED.");
         }
         else
         {
             if (!string.IsNullOrEmpty(defines)) defines += ";";
             defines += DefineSymbol;
-            Debug.Log("Wwise integration DISABLED.");
+            Debug.Log("Wwise Events DISABLED.");
         }
 
-        PlayerSettings.SetScriptingDefineSymbolsForGroup(buildTargetGroup, defines);
+        PlayerSettings.SetScriptingDefineSymbols(buildTargetGroup, defines);
     }
 
-    [MenuItem("Tools/Wwise/Toggle Wwise Integration", true)]
+    [MenuItem("Tools/Wwise/Disable Wwise Events", true)]
     public static bool ToggleWwiseDefineValidate()
     {
-        Menu.SetChecked("Tools/Wwise/Toggle Wwise Integration", IsWwiseDisabled());
+        Menu.SetChecked("Tools/Wwise/Disable Wwise Events", IsWwiseDisabled());
         return true;
     }
 
     private static bool IsWwiseDisabled()
     {
-        BuildTargetGroup buildTargetGroup = EditorUserBuildSettings.selectedBuildTargetGroup;
-        string defines = PlayerSettings.GetScriptingDefineSymbolsForGroup(buildTargetGroup);
+        var buildTargetGroup = UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
+        string defines = PlayerSettings.GetScriptingDefineSymbols(buildTargetGroup);
         return defines.Contains(DefineSymbol);
     }
 }
+#endif
 

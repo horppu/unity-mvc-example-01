@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cbb796795971b54ba8046ea4874c8a83
     GuidInternal: 
-    m_lastTime: -8584537755797780438
+    m_lastTime: -8584537101850367585
     List:
     - name: Effects
       guid: 450c9041b02a2148b1ce7cf50574063c
@@ -114,7 +114,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 946f22cfc92c93408492be99eb170691
     GuidInternal: 
-    m_lastTime: -8584537209609717311
+    m_lastTime: -8584537085619819588
     List:
     - name: UserSoundBank
       guid: 7c20c74befeb20478ecc72ab3c1cc679
@@ -142,8 +142,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2ffc8019e3bf7f488e3c43c9655d5d57
     GuidInternal: 
-    m_lastTime: -8584537209609867322
+    m_lastTime: -8584537084365691338
     List:
+    - name: Mute_snare
+      guid: b403968f10738e4b82feedd2c62f7b81
+      id: 3723166340
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2ffc8019e3bf7f488e3c43c9655d5d57
+      - ElementName: Mute_snare
+        ObjectType: 3
+        guid: b403968f10738e4b82feedd2c62f7b81
+      Path: Events\Default Work Unit\Mute_snare
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play
       guid: 37213a824dd54347a3ea9311f8a4b589
       id: 1256202815
@@ -195,6 +212,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_BallGameLoop
+      guid: 6633be0527d7a7429b2a49df3baa838f
+      id: 1925396849
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2ffc8019e3bf7f488e3c43c9655d5d57
+      - ElementName: Play_BallGameLoop
+        ObjectType: 3
+        guid: 6633be0527d7a7429b2a49df3baa838f
+      Path: Events\Default Work Unit\Play_BallGameLoop
+      maxAttenuation: 0
+      maxDuration: 8
+      minDuration: 8
     - name: Play_biisi1_bass
       guid: 4de384b3f9a72242a159c4ad7887864d
       id: 509790063
@@ -295,8 +329,8 @@ MonoBehaviour:
         guid: 5d2295370093c74f9b9affc3ea7b4ad0
       Path: Events\Default Work Unit\Play_switch1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play2
       guid: 627bcfa2c2efae4faea5bb697ef83a38
       id: 500558111
@@ -343,7 +377,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 5d8b7eb7444812478db28f1335d41cf0
     GuidInternal: 
-    m_lastTime: -8584537755797241245
+    m_lastTime: -8584537136864940804
     List:
     - name: EffectsVolume
       guid: 489f1371f9beb44a8b5d0eae531ddc22
@@ -373,6 +407,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: b63c04ad5566f14b8fcfa5aade7de951
       Path: Game Parameters\Default Work Unit\MasterVolume
+    - name: MusicFadeIn
+      guid: c15115c910bc6649b2f10123ec3437c8
+      id: 739941049
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5d8b7eb7444812478db28f1335d41cf0
+      - ElementName: MusicFadeIn
+        ObjectType: 13
+        guid: c15115c910bc6649b2f10123ec3437c8
+      Path: Game Parameters\Default Work Unit\MusicFadeIn
     - name: MusicVolume
       guid: 398bcbe1feca8444b79e6cc28d5fa5e4
       id: 2346531308
@@ -454,7 +502,7 @@ MonoBehaviour:
     ParentPath: Triggers\Music
     guid: c3c75824a00d834c9c4b7f6c19763ec0
     GuidInternal: 
-    m_lastTime: -8584537209609557614
+    m_lastTime: -8584537085619612899
     List:
     - name: Lead2
       guid: 192c05cc125e0041b23329ad40aad65f

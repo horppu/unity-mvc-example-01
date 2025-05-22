@@ -133,6 +133,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BallGameLoop" ID="{05BE3366-D727-42A7-9B2A-49DF3BAA838F}">
+					<ChildrenList>
+						<Action Name="" ID="{A55CBEFE-9326-4B4B-A663-BE8681BAB19A}" ShortID="525421242">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BallGame" ID="{7EEDF02D-51C5-4719-AAAC-E20D188FE5A1}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_snare" ID="{8F9603B4-7310-4B8E-82FE-EDD2C62F7B81}">
+					<ChildrenList>
+						<Action Name="" ID="{DD9B7DD1-A329-4901-B728-7E7BBE683153}" ShortID="786414404">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snare" ID="{B945211D-5939-4FE4-9D88-4165087805CA}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

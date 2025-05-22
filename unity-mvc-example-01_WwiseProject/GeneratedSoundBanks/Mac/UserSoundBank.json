@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4BC7207C-EBEF-4720-8ECC-72AB3C1CC679}",
     "Language": "SFX",
-    "Hash": "{BD7A03A0-F920-9174-9ABA-63BF35313447}",
+    "Hash": "{BEA1BE0A-74CD-C677-4C4B-5D6557DEA320}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UserSoundBank",
     "ShortName": "UserSoundBank",
     "Path": "UserSoundBank.bnk",
@@ -150,6 +150,31 @@
     },
     "Events": [
      {
+      "Id": "3723166340",
+      "Name": "Mute_snare",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_snare",
+      "GUID": "{8F9603B4-7310-4B8E-82FE-EDD2C62F7B81}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "627835932"
+       },
+       {
+        "Id": "695270151"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2755291687"
+        }
+       ]
+      }
+     },
+     {
       "Id": "1256202815",
       "Name": "Play",
       "ObjectPath": "\\Events\\Default Work Unit\\Play",
@@ -221,6 +246,39 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_BallGame_01",
       "GUID": "{DF0B9AEB-C175-4142-8EC0-761FE986F7D7}",
       "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "119157465"
+       },
+       {
+        "Id": "526421783"
+       },
+       {
+        "Id": "627835932"
+       },
+       {
+        "Id": "695270151"
+       },
+       {
+        "Id": "1000871608"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2755291687"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1925396849",
+      "Name": "Play_BallGameLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BallGameLoop",
+      "GUID": "{05BE3366-D727-42A7-9B2A-49DF3BAA838F}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
       "MediaRefs": [
        {
         "Id": "119157465"
@@ -344,6 +402,15 @@
       ]
      },
      {
+      "Id": "1441427375",
+      "Name": "Play_switch1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_switch1",
+      "GUID": "{3795225D-9300-4FC7-9B9A-FFC3EA7B4AD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3086540886",
       "Name": "StopAll",
       "ObjectPath": "\\Events\\Default Work Unit\\StopAll",
@@ -364,6 +431,6 @@
     ]
    }
   ],
-  "FileHash": "{28F5B9AD-CE87-BA82-0FF1-FC2D55577655}"
+  "FileHash": "{C261B9A9-FDFB-3D07-1BF1-B9D6821ADB94}"
  }
 }

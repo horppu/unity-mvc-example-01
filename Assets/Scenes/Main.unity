@@ -222,10 +222,8 @@ GameObject:
   m_Component:
   - component: {fileID: 188368418}
   - component: {fileID: 188368417}
-  - component: {fileID: 188368421}
   - component: {fileID: 188368422}
   - component: {fileID: 188368423}
-  - component: {fileID: 188368424}
   - component: {fileID: 188368426}
   - component: {fileID: 188368425}
   m_Layer: 0
@@ -276,32 +274,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &188368421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188368416}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c48df67c2c9ff649a60981ce3f7de29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5e228cf9fa8a6104ebfc5c9102792230,
-      type: 2}
-  decodeBank: 0
-  overrideLoadSetting: 1
-  loadAsynchronous: 1
-  saveDecodedBank: 0
-  unloadTriggerList: 
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!114 &188368422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,23 +298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18bfc990eb0109848aa0b738879ae571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &188368424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188368416}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75699c7fb4ba00b4299b7eeb90146859, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playMusic:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f73705d4dcf44814a93f641218cebdc9,
-      type: 2}
 --- !u!114 &188368425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,9 +366,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629754671}
+  - component: {fileID: 629754675}
   - component: {fileID: 629754672}
   - component: {fileID: 629754673}
-  - component: {fileID: 629754675}
   - component: {fileID: 629754674}
   m_Layer: 0
   m_Name: Ball
@@ -459,6 +414,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f6c5af8577106ac4abd830b65e9d2d76,
       type: 2}
+  dynamicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c2609b689cc071641825509d39ad8563,
+      type: 2}
 --- !u!114 &629754673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,7 +435,7 @@ MonoBehaviour:
   musicVolumeRTPC: MusicVolume
   effectsVolumeRTPC: EffectsVolume
   masterVolume: 100
-  musicVolume: 13.9
+  musicVolume: 22.8
   effectsVolume: 100
 --- !u!114 &629754674
 MonoBehaviour:
