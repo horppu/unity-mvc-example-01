@@ -5,10 +5,28 @@
 			<ChildrenList>
 				<SoundBank Name="UserSoundBank" ID="{4BC7207C-EBEF-4720-8ECC-72AB3C1CC679}">
 					<ObjectInclusionList>
+						<ObjectRef Name="LootBox" ID="{2BCDAF0C-108E-40BD-A322-F3D2AAF47EF8}" WorkUnitID="{95BE7805-48A0-43FE-BE92-A1EAED1DB33D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BallGame_01" ID="{DF0B9AEB-C175-4142-8EC0-761FE986F7D7}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_biisi1_bass" ID="{B384E34D-A7F9-4222-A159-C4AD7887864D}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_1" ID="{A2F33FDD-347F-426B-9A49-164E3C5EDB63}" WorkUnitID="{95BE7805-48A0-43FE-BE92-A1EAED1DB33D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LootBox" ID="{BE962BAC-E3D7-439C-B656-62337746CC94}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BallGame" ID="{6CC8CE9B-B856-4498-83B2-2190D890691E}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="biisi1_bass" ID="{56CB6DD3-32F1-450C-8E50-0A74B73DBAA1}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MyMusic" ID="{C1DB6E55-6709-4533-A7EC-80B14006401A}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_2" ID="{38CB4E8F-4EEC-4715-90E1-8BAAA9788001}" WorkUnitID="{95BE7805-48A0-43FE-BE92-A1EAED1DB33D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BallGame" ID="{7EEDF02D-51C5-4719-AAAC-E20D188FE5A1}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play" ID="{823A2137-D54D-4743-A3EA-9311F8A4B589}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lead" ID="{848F8CE9-9BEF-4990-9CF8-70B99AC16E22}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="biisi1_lead" ID="{04F313D5-1095-4CF8-988E-8B61224635CE}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_biisi1_lead" ID="{7896AECC-7996-4D24-8251-1DB0174FFDD0}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BallGame" ID="{7C621DCC-E7A2-4DA7-B433-23415B5C1502}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopAll" ID="{2B0BD503-5DF6-4DB4-9188-14F5EA48DA6E}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="basedrum" ID="{BD36BC4F-1664-4DDD-90D0-FA7262C6D2C8}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx3" ID="{5A311071-29C8-4E4A-BDEE-EE06C408C7F8}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="baseline" ID="{8DB5319A-1FAA-4E9E-B80D-20471352B188}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play2" ID="{A2CF7B62-EFC2-4FAE-AEA5-BB697EF83A38}" WorkUnitID="{1980FC2F-BFE3-487F-8E3C-43C9655D5D57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="snare" ID="{B945211D-5939-4FE4-9D88-4165087805CA}" WorkUnitID="{2DD2F5E5-AEBE-4B0F-8080-C4F7FE3537B5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

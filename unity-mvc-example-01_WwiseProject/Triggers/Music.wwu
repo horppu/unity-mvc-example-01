@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2458C7C3-0DA0-4C83-9C4B-7F6C19763EC0}" SchemaVersion="123">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{2458C7C3-0DA0-4C83-9C4B-7F6C19763EC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Lead2" ID="{CC052C19-5E12-4100-B233-29AD40AAD65F}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

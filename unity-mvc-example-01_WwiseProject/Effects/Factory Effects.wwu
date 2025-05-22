@@ -80,9 +80,9 @@
 							<PropertyList>
 								<Property Name="AttackTime" Type="Real32" Value="0.331"/>
 								<Property Name="OutputGain" Type="Real32" Value="3"/>
-								<Property Name="Ratio" Type="Real32" Value="25"/>
+								<Property Name="Ratio" Type="Real32" Value="27.8"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.601"/>
-								<Property Name="Threshold" Type="Real32" Value="-40"/>
+								<Property Name="Threshold" Type="Real32" Value="-26.5"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Pumping_and_Breathing_3" ID="{8B1E574C-55B2-4097-A21F-D39349A6F48B}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
@@ -133,7 +133,8 @@
 						<Effect Name="One_Tap_Quarter_Second" ID="{6BD2D67D-601A-45A6-AD4C-2C089078EBED}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
 								<Property Name="DelayTime" Type="Real32" Value="0.51"/>
-								<Property Name="Feedback" Type="Real32" Value="34.5"/>
+								<Property Name="Feedback" Type="Real32" Value="60.5"/>
+								<Property Name="WetDryMix" Type="Real32" Value="33.5"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Nearly_Forever" ID="{38550FDA-9236-4FC5-8AE0-68DB08164B25}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">

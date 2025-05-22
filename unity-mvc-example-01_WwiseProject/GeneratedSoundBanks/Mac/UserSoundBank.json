@@ -10,11 +10,67 @@
     "Type": "User",
     "GUID": "{4BC7207C-EBEF-4720-8ECC-72AB3C1CC679}",
     "Language": "SFX",
-    "Hash": "{7283C5D1-695C-6D23-BF02-C00C783DC881}",
+    "Hash": "{F513EE44-A324-7269-6274-953E908EEF44}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UserSoundBank",
     "ShortName": "UserSoundBank",
     "Path": "UserSoundBank.bnk",
     "Media": [
+     {
+      "Id": "39764007",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx3.wav",
+      "CachePath": "18/{182EACF1-CAE4-325F-F0E3-860465DCACB6}.wem"
+     },
+     {
+      "Id": "119157465",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BallGame\\baseline.wav",
+      "CachePath": "63/{6353A810-89A3-2560-121D-6685EBB07A06}.wem"
+     },
+     {
+      "Id": "212208798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "switch1\\sfx_switch_2.wav",
+      "CachePath": "09/{09F3C27D-3783-C06C-EFA5-C84815CC3F26}.wem"
+     },
+     {
+      "Id": "258781113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "switch1\\sfx_switch_4.wav",
+      "CachePath": "4B/{4B2F93C2-45AA-BEB1-92FD-6C9451F31A03}.wem"
+     },
+     {
+      "Id": "442514598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "biisi1_bass.wav",
+      "CachePath": "16/{1628A7CC-1AA4-6345-F577-1CA703BF85D8}.wem"
+     },
+     {
+      "Id": "453166150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "biisi1_lead.wav",
+      "CachePath": "08/{08131FD3-BAF8-1999-CCCB-A3EE6B20A43F}.wem"
+     },
+     {
+      "Id": "526421783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BallGame\\lead.wav",
+      "CachePath": "74/{74E80BFC-F608-05E5-51AF-09F03C80B5FC}.wem"
+     },
      {
       "Id": "589080204",
       "Language": "SFX",
@@ -24,12 +80,52 @@
       "CachePath": "D4/{D48B6E85-7B8E-C51E-BF9F-615989E8CE05}.wem"
      },
      {
+      "Id": "609221277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "switch1\\sfx_switch_3.wav",
+      "CachePath": "29/{29D66ECF-4CC8-1AC4-A25B-3AB7587EFC01}.wem"
+     },
+     {
+      "Id": "609257143",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "switch1\\sfx_switch_1.wav",
+      "CachePath": "A3/{A30B2733-D20E-E3E9-3D14-FFD6776D003B}.wem"
+     },
+     {
+      "Id": "627835932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lead2.wav",
+      "CachePath": "3D/{3D575849-2DF7-1DD4-732F-CBFEB2BD8172}.wem"
+     },
+     {
+      "Id": "695270151",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BallGame\\snare.wav",
+      "CachePath": "60/{60E6FDFB-D90B-B2ED-2611-9542412E7E62}.wem"
+     },
+     {
       "Id": "775856288",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_1.wav",
       "CachePath": "5B/{5B9FAC3E-7573-72D4-669B-2E03BA017EAF}.wem"
+     },
+     {
+      "Id": "1000871608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BallGame\\basedrum.wav",
+      "CachePath": "5D/{5D29324B-B705-F98C-94EA-1C822131D851}.wem"
      }
     ],
     "Plugins": {
@@ -41,6 +137,14 @@
        "GUID": "{6BD2D67D-601A-45A6-AD4C-2C089078EBED}",
        "LibName": "Wwise Delay",
        "LibId": "6946819"
+      },
+      {
+       "Id": "2755291687",
+       "Name": "Pumping_and_Breathing_2",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Pumping_and_Breathing_2",
+       "GUID": "{1E63EC43-20F0-4D27-A844-BD5F6AE9E3C9}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
       }
      ]
     },
@@ -79,10 +183,187 @@
         }
        ]
       }
+     },
+     {
+      "Id": "3908199871",
+      "Name": "Play_BallGame",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BallGame",
+      "GUID": "{6CC8CE9B-B856-4498-83B2-2190D890691E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "119157465"
+       },
+       {
+        "Id": "526421783"
+       },
+       {
+        "Id": "627835932"
+       },
+       {
+        "Id": "695270151"
+       },
+       {
+        "Id": "1000871608"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2755291687"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1986858627",
+      "Name": "Play_BallGame_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BallGame_01",
+      "GUID": "{DF0B9AEB-C175-4142-8EC0-761FE986F7D7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "119157465"
+       },
+       {
+        "Id": "526421783"
+       },
+       {
+        "Id": "627835932"
+       },
+       {
+        "Id": "695270151"
+       },
+       {
+        "Id": "1000871608"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2755291687"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "509790063",
+      "Name": "Play_biisi1_bass",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_biisi1_bass",
+      "GUID": "{B384E34D-A7F9-4222-A159-C4AD7887864D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "442514598"
+       }
+      ]
+     },
+     {
+      "Id": "2982188564",
+      "Name": "Play_biisi1_lead",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_biisi1_lead",
+      "GUID": "{7896AECC-7996-4D24-8251-1DB0174FFDD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "453166150"
+       }
+      ]
+     },
+     {
+      "Id": "3406346291",
+      "Name": "Play_LootBox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_LootBox",
+      "GUID": "{BE962BAC-E3D7-439C-B656-62337746CC94}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8553182",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "212208798"
+       },
+       {
+        "Id": "258781113"
+       },
+       {
+        "Id": "609221277"
+       },
+       {
+        "Id": "609257143"
+       }
+      ]
+     },
+     {
+      "Id": "194180921",
+      "Name": "Play_MyMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MyMusic",
+      "GUID": "{C1DB6E55-6709-4533-A7EC-80B14006401A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "442514598"
+       },
+       {
+        "Id": "453166150"
+       }
+      ]
+     },
+     {
+      "Id": "4278995786",
+      "Name": "Play_sfx3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx3",
+      "GUID": "{5A311071-29C8-4E4A-BDEE-EE06C408C7F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "39764007"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2180422931"
+        }
+       ]
+      },
+      "ActionTrigger": [
+       {
+        "Id": "3065814067",
+        "Name": "Lead2",
+        "ObjectPath": "\\Triggers\\Music\\Lead2",
+        "GUID": "{CC052C19-5E12-4100-B233-29AD40AAD65F}"
+       }
+      ]
+     },
+     {
+      "Id": "3086540886",
+      "Name": "StopAll",
+      "ObjectPath": "\\Events\\Default Work Unit\\StopAll",
+      "GUID": "{2B0BD503-5DF6-4DB4-9188-14F5EA48DA6E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "3065814067",
+      "Name": "Lead2",
+      "ObjectPath": "\\Triggers\\Music\\Lead2",
+      "GUID": "{CC052C19-5E12-4100-B233-29AD40AAD65F}"
      }
     ]
    }
   ],
-  "FileHash": "{9D641CF5-5674-516B-47B9-CC8F26300920}"
+  "FileHash": "{6830089D-3D6D-F1EE-41D7-07F707DD83C0}"
  }
 }

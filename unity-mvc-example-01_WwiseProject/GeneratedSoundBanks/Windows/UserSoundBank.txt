@@ -1,11 +1,35 @@
 Event	ID	Name			Wwise Object Path	Notes
+	194180921	Play_MyMusic			\Default Work Unit\Play_MyMusic	
 	500558111	Play2			\Default Work Unit\Play2	
+	509790063	Play_biisi1_bass			\Default Work Unit\Play_biisi1_bass	
 	1256202815	Play			\Default Work Unit\Play	
+	1986858627	Play_BallGame_01			\Default Work Unit\Play_BallGame_01	
+	2982188564	Play_biisi1_lead			\Default Work Unit\Play_biisi1_lead	
+	3086540886	StopAll			\Default Work Unit\StopAll	
+	3406346291	Play_LootBox			\Default Work Unit\Play_LootBox	
+	3908199871	Play_BallGame			\Default Work Unit\Play_BallGame	
+	4278995786	Play_sfx3			\Default Work Unit\Play_sfx3	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	3065814067	Lead2			\Music\Lead2	
 
 Effect plug-ins	ID	Name	Type				Notes
 	2180422931	One_Tap_Quarter_Second	Wwise Delay			
+	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39764007	sfx3	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\18\{182EACF1-CAE4-325F-F0E3-860465DCACB6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx3		352896
+	119157465	baseline	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\63\{6353A810-89A3-2560-121D-6685EBB07A06}.wem		\Interactive Music Hierarchy\Music\BallGame\BallGame\baseline		1411296
+	212208798	sfx_switch_2	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\09\{09F3C27D-3783-C06C-EFA5-C84815CC3F26}.wem		\Actor-Mixer Hierarchy\Default Work Unit\switch1\LootBox\sfx_switch_2		352896
+	258781113	sfx_switch_4	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\4B\{4B2F93C2-45AA-BEB1-92FD-6C9451F31A03}.wem		\Actor-Mixer Hierarchy\Default Work Unit\switch1\LootBox\sfx_switch_4		352896
+	442514598	biisi1_bass	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\16\{1628A7CC-1AA4-6345-F577-1CA703BF85D8}.wem		\Interactive Music Hierarchy\Default Work Unit\MyMusic\biisi1_bass\biisi1_bass		352896
+	453166150	biisi1_lead	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\08\{08131FD3-BAF8-1999-CCCB-A3EE6B20A43F}.wem		\Interactive Music Hierarchy\Default Work Unit\MyMusic\biisi1_lead\biisi1_lead		352896
+	526421783	lead	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\74\{74E80BFC-F608-05E5-51AF-09F03C80B5FC}.wem		\Interactive Music Hierarchy\Music\BallGame\BallGame\lead		1411296
 	589080204	sfx_2	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\D4\{D48B6E85-7B8E-C51E-BF9F-615989E8CE05}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_2		882096
+	609221277	sfx_switch_3	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\29\{29D66ECF-4CC8-1AC4-A25B-3AB7587EFC01}.wem		\Actor-Mixer Hierarchy\Default Work Unit\switch1\LootBox\sfx_switch_3		352896
+	609257143	sfx_switch_1	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\A3\{A30B2733-D20E-E3E9-3D14-FFD6776D003B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\switch1\LootBox\sfx_switch_1		352896
+	627835932	lead2	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\3D\{3D575849-2DF7-1DD4-732F-CBFEB2BD8172}.wem		\Interactive Music Hierarchy\Music\Stingers\lead2\lead2		1411296
+	695270151	snare	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\60\{60E6FDFB-D90B-B2ED-2611-9542412E7E62}.wem		\Interactive Music Hierarchy\Music\BallGame\BallGame\snare		1411296
 	775856288	sfx_1	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\5B\{5B9FAC3E-7573-72D4-669B-2E03BA017EAF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_1		882096
+	1000871608	basedrum	H:\testirepot\unity-mvc-example-01\unity-mvc-example-01_WwiseProject\.cache\5D\{5D29324B-B705-F98C-94EA-1C822131D851}.wem		\Interactive Music Hierarchy\Music\BallGame\BallGame\basedrum		1411296
 
