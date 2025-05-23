@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4BC7207C-EBEF-4720-8ECC-72AB3C1CC679}",
     "Language": "SFX",
-    "Hash": "{BEA1BE0A-74CD-C677-4C4B-5D6557DEA320}",
+    "Hash": "{B0FEB143-D6BC-5CD2-CF6B-7E94FEA7A62A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UserSoundBank",
     "ShortName": "UserSoundBank",
     "Path": "UserSoundBank.bnk",
@@ -130,6 +130,14 @@
     ],
     "Plugins": {
      "ShareSets": [
+      {
+       "Id": "1674078407",
+       "Name": "Chorus_Like",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Chorus\\Chorus_Like",
+       "GUID": "{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
       {
        "Id": "2180422931",
        "Name": "One_Tap_Quarter_Second",
@@ -338,7 +346,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_LootBox",
       "GUID": "{BE962BAC-E3D7-439C-B656-62337746CC94}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8553182",
+      "DurationMin": "1",
       "DurationMax": "2",
       "MediaRefs": [
        {
@@ -353,7 +361,14 @@
        {
         "Id": "609257143"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1674078407"
+        }
+       ]
+      }
      },
      {
       "Id": "194180921",
@@ -408,7 +423,14 @@
       "GUID": "{3795225D-9300-4FC7-9B9A-FFC3EA7B4AD0}",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMax": "0",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1674078407"
+        }
+       ]
+      }
      },
      {
       "Id": "3086540886",
@@ -431,6 +453,6 @@
     ]
    }
   ],
-  "FileHash": "{C261B9A9-FDFB-3D07-1BF1-B9D6821ADB94}"
+  "FileHash": "{E3ACCEE2-C50E-4161-52CB-85E77BD38F1D}"
  }
 }

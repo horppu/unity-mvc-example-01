@@ -18,6 +18,13 @@
     "StaticLib": "AkCompressorFX"
    },
    {
+    "LibName": "Wwise Flanger",
+    "LibId": "8192003",
+    "Type": "Effect",
+    "DLL": "AkFlanger",
+    "StaticLib": "AkFlangerFX"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -28,6 +35,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{B2DEC66B-FEC4-9903-72AF-C4932E9BC22B}"
+  "FileHash": "{9F041248-2B80-3E14-1DBB-5875B6778559}"
  }
 }

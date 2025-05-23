@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2ffc8019e3bf7f488e3c43c9655d5d57
     GuidInternal: 
-    m_lastTime: -8584537084365691338
+    m_lastTime: -8584536971948835019
     List:
     - name: Mute_snare
       guid: b403968f10738e4b82feedd2c62f7b81
@@ -279,7 +279,7 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Play_LootBox
       maxAttenuation: 0
       maxDuration: 2
-      minDuration: 1.8553182
+      minDuration: 1
     - name: Play_MyMusic
       guid: 556edbc109673345a7ec80b14006401a
       id: 194180921

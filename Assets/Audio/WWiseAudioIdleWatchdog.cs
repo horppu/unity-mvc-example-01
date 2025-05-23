@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class WwiseIdleAudioWatchdog : MonoBehaviour
@@ -39,3 +38,4 @@ public class WwiseIdleAudioWatchdog : MonoBehaviour
         Debug.Log("All Wwise audio stopped due to idle timeout.");
     }
 }
+

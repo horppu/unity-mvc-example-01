@@ -17,6 +17,7 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	3065814067	Lead2			\Music\Lead2	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1674078407	Chorus_Like	Wwise Flanger			
 	2180422931	One_Tap_Quarter_Second	Wwise Delay			
 	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
 
