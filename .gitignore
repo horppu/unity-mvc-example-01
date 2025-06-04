@@ -90,18 +90,18 @@ crashlytics-build.properties
 #
 # Wwise Project
 #
-/WwiseProject/.backup
-/WwiseProject/.cache
-/WwiseProject/ExternalSources/Wwise.dat
-/WwiseProject/ExternalSources/ManyAssets/
-/WwiseProject/GeneratedSoundBanks
-/WwiseProject/Gyms.*
-/WwiseProject/Originals/*.cache
-/WwiseProject/Originals/SFX/LargeMedia.wav
-/WwiseProject/Originals/SFX/ManyAssets*
-/WwiseProject/Originals/SFX/ShortMedia*
-/WwiseProject/Originals/Voices/**/ManyAssets/
-!/WwiseProject/Gyms.wproj
+/unity-mvc-example-01_WwiseProject/.backup
+/unity-mvc-example-01_WwiseProject/.cache
+/unity-mvc-example-01_WwiseProject/ExternalSources/Wwise.dat
+/unity-mvc-example-01_WwiseProject/ExternalSources/ManyAssets/
+/unity-mvc-example-01_WwiseProject/GeneratedSoundBanks
+/unity-mvc-example-01_WwiseProject/Gyms.*
+/unity-mvc-example-01_WwiseProject/Originals/*.cache
+/unity-mvc-example-01_WwiseProject/Originals/SFX/LargeMedia.wav
+/unity-mvc-example-01_WwiseProject/Originals/SFX/ManyAssets*
+/unity-mvc-example-01_WwiseProject/Originals/SFX/ShortMedia*
+/unity-mvc-example-01_WwiseProject/Originals/Voices/**/ManyAssets/
+
 
 #
 # Unity
@@ -124,39 +124,39 @@ crashlytics-build.properties
 /Unity/ProjectSettings/VersionControlSettings.asset
 
 # Wwise generated files
-WwiseProject/GeneratedSoundBanks/
-WwiseProject/.cache/
-WwiseProject/.settings/
-WwiseProject/Authoring/
-WwiseProject/Originals/
-WwiseProject/Events/
-WwiseProject/Metadata/
-WwiseProject/Plugins/
-WwiseProject/ProjectCache/
-WwiseProject/SoundBanks/
-WwiseProject/SourceFiles/
-WwiseProject/Temp/
-WwiseProject/Unreal/
-WwiseProject/Wwise_IDs.h
-WwiseProject/Wwise_IDs.cs
-WwiseProject/Wwise_IDs.json
-WwiseProject/Wwise_IDs.txt
+/unity-mvc-example-01_WwiseProject/GeneratedSoundBanks/
+/unity-mvc-example-01_WwiseProject/.cache/
+/unity-mvc-example-01_WwiseProject/.settings/
+/unity-mvc-example-01_WwiseProject/Authoring/
+/unity-mvc-example-01_WwiseProject/Originals/
+/unity-mvc-example-01_WwiseProject/Events/
+/unity-mvc-example-01_WwiseProject/Metadata/
+/unity-mvc-example-01_WwiseProject/Plugins/
+/unity-mvc-example-01_WwiseProject/ProjectCache/
+/unity-mvc-example-01_WwiseProject/SoundBanks/
+/unity-mvc-example-01_WwiseProject/SourceFiles/
+/unity-mvc-example-01_WwiseProject/Temp/
+/unity-mvc-example-01_WwiseProject/Unreal/
+/unity-mvc-example-01_WwiseProject/Wwise_IDs.h
+/unity-mvc-example-01_WwiseProject/Wwise_IDs.cs
+/unity-mvc-example-01_WwiseProject/Wwise_IDs.json
+/unity-mvc-example-01_WwiseProject/Wwise_IDs.txt
 
 # Ignore Wwise-specific files in Unity project
-Assets/Wwise/Editor/
-Assets/Wwise/Deployment/
-Assets/Wwise/Documentation/
-Assets/Wwise/IntegrationDemo/
-Assets/Wwise/MonoBehaviour/
-Assets/Wwise/Native/
-Assets/Wwise/ThirdParty/
-Assets/Wwise/Tools/
-Assets/Wwise/Version.txt
-Assets/Wwise/Settings.xml
-Assets/Wwise/EditorSettings.xml
+/Assets/Wwise/Editor/
+/Assets/Wwise/Deployment/
+/Assets/Wwise/Documentation/
+/Assets/Wwise/IntegrationDemo/
+/Assets/Wwise/MonoBehaviour/
+/Assets/Wwise/Native/
+/Assets/Wwise/ThirdParty/
+/Assets/Wwise/Tools/
+/Assets/Wwise/Version.txt
+/Assets/Wwise/Settings.xml
+/Assets/Wwise/EditorSettings.xml
 
 # This has been a problem
-Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 
 # Ignore Wwise cache files
 *.cache
