@@ -156,7 +156,7 @@ Assets/Wwise/Settings.xml
 Assets/Wwise/EditorSettings.xml
 
 # This has been a problem
-*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 
 # Ignore Wwise cache files
 *.cache
