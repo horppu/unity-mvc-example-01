@@ -436,7 +436,7 @@ MonoBehaviour:
   effectsVolumeRTPC: EffectsVolume
   masterVolume: 100
   musicVolume: 100
-  effectsVolume: 49.7
+  effectsVolume: 0
 --- !u!114 &629754674
 MonoBehaviour:
   m_ObjectHideFlags: 0
